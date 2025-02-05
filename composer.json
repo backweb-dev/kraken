@@ -1,0 +1,31 @@
+{
+  "name": "backweb/kraken",
+  "keywords": [
+    "sage",
+    "wordpress",
+    "acorn",
+    "theme-development",
+    "blade"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=8.1",
+    "roots/acorn": "^4.3",
+    "jgrossi/corcel": "^7.0",
+    "illuminate/auth": "^10.48",
+    "log1x/poet": "^2.1",
+    "backweb/sage-acf": "dev-main"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Backweb\\Kraken\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Backweb",
+      "email": "contact@backweb.dev"
+    }
+  ]
+}
